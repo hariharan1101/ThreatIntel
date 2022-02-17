@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<title>ThreatIntel</title>
+<head>
+<script src="MainMenuScript.js" type="text/javascript"></script>
+</head>
+<body background='img1.jpg'>
+<h2>Data Polled Successfully</h2>
+<button onclick="viewURLFN()">View URLs</button><br><br>
+<input type="text" id="urlsearch"><br>
+<button onclick="searchURLFN()">Search URLs</button>
+<div id="area1" style='background-color:#ff6347'></div>
+<br>
+<br>
+<br>
+<button onclick="viewDOMAINFN()">View Domains</button><br><br>
+<input type="text" id="domainsearch"><br>
+<button onclick="searchDOMAINFN()">Search Domains</button>
+<div id="area2" style='background-color:#ff6347'></div>
+<br>
+<br>
+<br>
+<button onclick="viewIPFN()">View IPs</button><br><br>
+<input type="text" id="ipsearch"><br>
+<button onclick="searchIPFN()">Search IPs</button>
+<div id="area3" style='background-color:#ff6347'></div>
+<br>
+<br>
+<br>
+<a href="Stats.html" id='callstats'>
+<input type='submit' value="Show Stats">
+</a>
+<pre id="arrPrint" style='background-color:#ff6347'></pre>
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Threat Statistics</title>
+ <script
+src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js">
+</script>
+</head>
+<body background='img1.jpg'>
+MaliciousURLs Count: <input type='text' id='stat1'>
+MaliciousDomains Count: <input type='text' id='stat2'>
+MaliciousIPs Count: <input type='text' id='stat3'>
+<button onclick="show()">Show</button>
+<div  id="hidden"><center>
+<canvas id="myChart" style="width:100%;max-width:600px"></canvas> 
+<canvas id="myChart1" style="width:100%;max-width:600px"></canvas>
+</center>
+</div>
+</body>
+<script src="StatsScript.js"></script>
+</html>
